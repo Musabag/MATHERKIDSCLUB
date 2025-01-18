@@ -210,3 +210,86 @@ footer {
     font-size: 0.9rem;
     color: #555;
 }
+
+.staff-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.staff-card {
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    background-color: #f9f9f9;
+}
+
+.staff-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.staff-img {
+    width: 100%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.staff-card h2 {
+    margin: 10px 0 5px;
+    font-size: 18px;
+    color: #333;
+}
+
+.staff-card p {
+    font-size: 16px;
+    color: #555;
+}
+
+.activities-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.activity-card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.activity-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.activity-card h2 {
+    margin: 10px 0;
+    font-size: 20px;
+    color: #333;
+}
+
+.activity-card p {
+    margin: 10px 0;
+    font-size: 16px;
+    color: #555;
+}
+
+.activity-video {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}

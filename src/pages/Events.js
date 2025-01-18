@@ -31,6 +31,7 @@ const Events = () => {
                     </li>
                 )) }
             </ul>
+
         </main>
     );
 };
