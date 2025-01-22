@@ -18,7 +18,7 @@ const staffMembers = [
     },
     {
         name: 'Cumali Akbas',
-        title: 'Activity Coordinator',
+        title: 'Hairstylist',
         img: '/assets/staff-cumali.jpg',
     },
     {
@@ -28,7 +28,7 @@ const staffMembers = [
     },
     {
         name: 'Suleyman Akbas',
-        title: 'Hairstylist',
+        title: 'cordinator',
         img: '/assets/staff-suleyman.jpg',
     },
     {
